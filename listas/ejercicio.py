@@ -17,8 +17,7 @@ print("lista1: ", lista1)
 print("numero elemento lista: ", len(lista2))
 print("lista2: ", lista2)
 lista_concretada = lista1 + lista2
-print("numero elementos lista_concantenada: ", len(lista_concantenada))
-print("lista concantenada: ", lista_concantenada)
+
 
 # 3. añadir elementos a la lista de diferente formas
 
@@ -36,3 +35,27 @@ lista[1] = ("cazadora")
 print(lista)
 del lista[0]
 print(lista)
+#5. uso del operador *, permite concantear una lista con ella misma un numero finito de veces
+lista1=["camiseta", "pantalon", "zapatillas"]
+print(lista)
+lista_resultado = lista * 3
+print(lista_resultado)
+
+#6. creacion de listas como elemento listas y accesos a dichos elementos
+lista1=["camiseta", "pantalon", "cazadores", "zapatillas"]
+print(lista)
+print(lista[0])
+print(lista[1])
+print(lista[2])
+print(lista[1] [0])
+print(lista[1] [1])
+
+# 7. extraer una porcion de la lista en una lista nueva
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(lista)
+lista = lista [3:7]
+print(lista)
+lista2 = (lista[:5])
+print(lista2)
+lista3 = lista[3:]
+print(lista3)
